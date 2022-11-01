@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./assets/style.css"/>
+</head>
+
+
+<body>
+<header>
+    <h3 class="header center" id="header">Weather Dashboard</h3>
+</header>    
+    <div class="row left" id="search-box">
+        <form class="col s12">
+          <div class="row">
+                <h5 class="seach-box left">Search For City</h5>
+            <div class="input-field col s12" id="text-box">
+              <textarea id="textarea1" class="materialize-textarea"></textarea>
+              <label id="userInput">Enter location</label>
+              <button id="search">Search</button>
+              
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="Jumbotron1 center" id="single-day">
+        <h5>Today's Weather</h5>
+      </div>
+      <div class="Jumbotron center" id="five-day">
+        <h5>Weather This Week</h5>
+      </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./assets/script.js"></script>
+</body>
+</html>

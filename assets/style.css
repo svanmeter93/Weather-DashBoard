@@ -1,0 +1,52 @@
+:root{
+    --first-color: rgb(31, 31, 99);
+    --second-color: rgb(130, 122, 194);
+    --third-color: rgba(126, 111, 255, 0.801);
+}
+
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: var(--second-color);
+    color: white;
+    padding: 15px;
+    border: solid 10px;
+    border-color:var(--first-color);
+}
+#search-box{
+    border: solid 5px;
+    padding: 2em;
+    margin: 20px 9px 3px 3px;
+    border-radius: 0.25em;
+    border-color: var(--first-color);
+}
+h5{
+    background-color: var(--second-color);
+    color: white;
+    padding: 10px;
+    border: solid 5px;
+    border-color: var(--first-color);
+    border-radius: 0.25em;
+    margin-left: 0.5em;
+    font-size:larger;
+}
+#single-day{
+    display: flex;
+    border: solid 5px;
+    border-radius: 0.25em;
+    margin: 20px 9px 3px 3px;
+    height: max-content;
+    width: auto;
+    border-color: var(--first-color);
+}
+
+#five-day{
+    display: flex;
+    border: solid 5px;
+    margin: 20px 9px 3px 3px;
+    height: min-content;
+    border-color: var(--first-color);
+}
